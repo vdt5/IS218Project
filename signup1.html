@@ -1,0 +1,44 @@
+<?php session_start=();
+unset($_session['username']);
+<?
+<!DOCTYPE HTML>
+<html>
+<body>
+<h1> Welcome to our database at NJIT <h1>
+<title> Sign up Page </title>
+<h1> First time user </h1>
+<form action="register.php" method="post">
+<script> src="main.js" </scriptipt>
+
+Username <br>
+<input type="text" name="email" > pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" onclick="validateForm()" <required
+<br>
+<br>
+Password<br>
+<input type="password" name="password" onclick="validateForm()"  <required <br><br>
+
+First Name <br>
+<input type="text" name="fname" onclick="validateForm()" <required <br><br>
+
+Last Name <br>
+<input type=text name="lname" onclick="validateForm()" <required <br><br>
+
+Phone <br>
+<input type=text name="Phone" onclick="validateForm()"<required <br><br>
+
+
+Gender <br>
+<input type=radio name="gender" value=Female<br><br>
+<input type=radio name="gender" value=Male<br><br>
+
+University <br>
+<input type="text" name="university" onclick="validateForm()" <br><br>
+
+Major <br>
+<input type=text name="major" <required <br><br>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+<body/>
+</html>
